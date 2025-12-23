@@ -80,25 +80,25 @@ Ce traitement permet de préparer les données pour l’analyse et le machine le
 
 ---
 
-## ⏱️ Analyse des performances
+##  Analyse des performances
 | Mode de traitement | Temps d’exécution |
 |-------------------|------------------|
 | Batch Processing | Plus rapide |
 | Streaming Processing | Plus lent (overhead) |
 
-📌 **Conclusion performance** :  
+ **Conclusion performance** :  
 Le streaming est plus lourd en raison de la gestion continue des flux, des micro-batchs et de la synchronisation, tandis que le batch est plus efficace pour des données statiques.
 
 ---
 
-## 📊 Résultats & Observations
+##  Résultats & Observations
 - Le traitement batch est mieux adapté aux analyses hors ligne
 - Le streaming est utile pour les données en temps réel mais consomme plus de ressources
 - Les réseaux sociaux influencent fortement l’opinion publique, notamment lors d’événements majeurs (élections, crises, mouvements sociaux)
 
 ---
 
-## ▶️ Exécution du projet
+##  Exécution du projet
 
 ### Prérequis
 - Hadoop installé et configuré
@@ -110,5 +110,7 @@ Le streaming est plus lourd en raison de la gestion continue des flux, des micro
 1. Lancer HDFS et Spark
 2. Importer le dataset dans HDFS
 3. Ouvrir le notebook :
+   
 "jupyter notebook final_final_Spark.ipynb"
+
 4.Exécuter les cellules dans l’ordre
